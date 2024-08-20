@@ -1,6 +1,6 @@
 # Sorting-Visualizer
 
-Overview
+Overview:
 A web-based tool for visualizing sorting algorithms. Users can adjust array size, sorting speed, and select from various algorithms to see how they operate in real-time.
 
 Features
