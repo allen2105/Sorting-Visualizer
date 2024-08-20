@@ -12,3 +12,5 @@ Tech Stack
 - HTML: Structure
 - CSS: Styling and animations
 - JavaScript: Logic and interactivity
+
+Link: https://allen2105.github.io/Sorting-Visualizer/
