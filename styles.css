@@ -1,0 +1,138 @@
+/* Reset CSS for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 150px;
+    height: 8px;
+    background: #1abc9c;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]:hover {
+    background: #16a085;
+}
+
+span {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #1e3799;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #1abc9c;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+#visualizer {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    height: 70vh;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#visualizer div {
+    transition: height 0.3s ease, background-color 0.3s ease;
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
